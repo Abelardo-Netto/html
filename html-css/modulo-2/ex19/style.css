@@ -1,0 +1,38 @@
+
+/*in HTML is id = in CSS #
+  in HTML is class = in CSS .
+*/
+
+
+body {
+    background-color: #3B4A3E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #3CC858;
+    
+    
+}
+h1#main {
+    text-align: center;
+    color: #499D5A;
+    background-color: #497351;
+}
+
+h2 {
+    color: #20F24A;
+}
+
+.basic{
+    background-color: bisque;
+}
+.interm{
+    background-color: black;
+}
+.advan{
+    background-color: rgb(27, 206, 206);
+}
+
+p{
+    text-align: justify;
+}
