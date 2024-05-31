@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*  SELETORES PERSONALIZADOS
+            # = id
+            . = class
+            : pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:visited{
+            color: rgba(106, 134, 40, 0);
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: aqua;
+        }
+        .special{
+            background-color: rgb(64, 49, 78);
+        }
+        .special::after{
+            content: "[click aqui para ir para o site]";
+            color: rgba(135, 167, 62, 0.39);
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Abelardo-Netto" target="_blank" class="special" >github repository</a></li>
+        <li><a href="https://www.youtube.com/watch?v=mnxV4iit7S4" target="_blank" class="special">Youtube</a></li>
+        <li><a href="https://www.investing.com/" target="_blank">Investing</a></li>
+    </ul>
+</body>
+</html>
